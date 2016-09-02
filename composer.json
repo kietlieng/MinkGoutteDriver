@@ -1,23 +1,20 @@
 {
-    "name":         "behat/mink-goutte-driver",
+    "name":         "kietlieng/mink-goutte-driver",
     "description":  "Goutte driver for Mink framework",
     "keywords":     ["goutte", "headless", "testing", "browser"],
-    "homepage":     "http://mink.behat.org/",
     "type":         "mink-driver",
     "license":      "MIT",
 
     "authors": [
         {
-            "name":      "Konstantin Kudryashov",
-            "email":     "ever.zet@gmail.com",
-            "homepage":  "http://everzet.com"
+            "name":      "Kiet Lieng"
         }
     ],
 
     "require": {
         "php":                           ">=5.3.1",
-        "behat/mink":                    "~1.6@dev",
-        "behat/mink-browserkit-driver":  "~1.2@dev",
+        "kietlieng/mink":                    "~1.6@dev",
+        "kietlieng/mink-browserkit-driver":  "~1.2@dev",
         "fabpot/goutte":                 "~1.0.4|~2.0|~3.1"
     },
 
